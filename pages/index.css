@@ -1,0 +1,272 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts/fonts.css);
+
+
+.page {
+    min-width: 320px;
+    max-width: 1280px;
+    background-color: #2A2C2F;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 48px 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__header {
+    margin: 0;
+}
+
+.header__logo {
+    margin-top: 28px;
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang-links {
+    margin-top: 46px;
+}
+
+.header__lang-link {
+    margin: 0%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+.header__lang-link:nth-child(1) {
+    text-decoration: underline;
+    padding-right: 18px;
+}
+
+.content {
+    display: grid;
+    box-sizing: border-box;
+    grid-row-gap: 92px;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content__lead {
+    margin: 56px auto 0;
+    box-sizing: border-box;
+}
+
+.lead__image {
+    max-width: 984px;
+    min-height: 615px;
+    margin-top: 64px;
+
+}
+
+.lead__title {
+    margin: 0 auto;
+    max-width: 720px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.04;
+    text-align: center;
+}
+
+.lead__subtitle {
+    max-width: 640px;
+    margin: 32px auto 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.lead__caption {
+    margin: 0%;
+    min-width: 158px;
+    min-height: 14px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.intro {
+
+}
+
+.content__intro {
+    margin: 0 100px;
+}
+
+.intro__title {
+    margin: 0%;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1.07;
+}
+
+.intro__text {
+    max-width: 690px;
+    min-height: 208px;
+    margin: 0%;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.intro__list {
+    margin-top: 33px;
+    min-width: 690px;
+    max-height: 90px;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0;
+}
+
+.intro__span {
+    font-weight: 400;
+}
+
+.photo-grid {
+    margin: 0;
+    padding: 0;
+    max-width: 1184px;
+    min-height: 671px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.photo-grid__item {
+    object-position: cover;
+    max-width: 284px;
+    max-height: 213px;
+    box-sizing: border-box;
+}
+
+.places {
+    display: grid;
+    gap: 80px;
+}
+
+.content__places {
+    margin: 0 100px 0;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    row-gap: 48px;
+    column-gap: 40px;
+}
+
+.place__title {
+    margin: 0%;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    box-sizing: border-box;
+    max-width: 460px;
+}
+
+.place__image {
+    max-width: 460px;
+    max-height: 460px;
+    grid-column: 1/2;
+    grid-row: 2/-1;
+    object-fit: cover;
+}
+
+.place__website {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: flex-end;
+}
+
+.place__url-heading {
+    margin: 0%;
+    margin-bottom: 12px;
+    width: 456px;
+    height: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: rgba(170, 170, 170, 1);
+}
+
+.place__link {
+    margin: 0%;
+    width: 456px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    text-decoration-line: underline;
+    color: white;
+}
+
+.place__paragraph {
+    margin: 0%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+    box-sizing: border-box;
+    margin-bottom: 26px;
+}
+
+.place__text {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.cover {
+
+}
+
+.cover__title {
+    margin: 0%;
+    max-width: 560px;
+    min-height: 152px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    text-align: center;
+    color: white;
+}
+
+.cover__subtitle {
+    margin: 0%;
+    max-width: 360px;
+    min-height: 66px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    color: white;
+
+}
