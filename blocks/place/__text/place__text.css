@@ -22,10 +22,9 @@
 @media screen and (max-width:450px) {
     .place__text {
         max-width: 288px;
-        gap: 25px; 
+        gap: 25px;
         grid-column: 1;
         grid-row: 4;
         margin-left: 16px;
     }
 }
-

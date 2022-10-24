@@ -7,15 +7,3 @@ margin: 0 48px;
         margin: 0;
     }
 }
-
-@media screen and (max-width:880px) {
-    .content__cover {
-       
-    }
-}
-
-@media screen and (max-width:450px) {
-    .content__cover {
-      
-    }
-}
