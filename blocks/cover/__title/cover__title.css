@@ -9,6 +9,18 @@
     position: relative;
 }
 
+@media screen and (max-width:1120px) {
+    .cover__title {
+        margin: 195px auto 0;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .cover__title {
+        margin: 115px auto 0;
+    }
+}
+
 @media screen and (max-width:450px) {
     .cover__title {
         margin: 33px auto 0;
