@@ -8,9 +8,9 @@
 }
 
 @media screen and (max-width:1120px) {
-    .place{
+    .place {
         max-width: 928px;
-        column-gap: 32px; 
+        column-gap: 32px;
     }
 }
 
