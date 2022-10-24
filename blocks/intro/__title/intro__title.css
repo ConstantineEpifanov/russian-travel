@@ -4,3 +4,18 @@
     font-size: 54px;
     line-height: 1.07;
 }
+
+@media screen and (max-width:880px) {
+    .intro__title {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .intro__title {
+        max-width: 288px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.09;
+    }
+}

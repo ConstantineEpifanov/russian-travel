@@ -9,3 +9,13 @@
     color: white;
     position: relative;
 }
+
+@media screen and (max-width:450px) {
+    .cover__subtitle {
+        margin: 16px auto 0;
+        font-size: 14px;
+        line-height: 1.14;
+        max-width: 288px;
+    }
+}
+

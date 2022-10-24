@@ -1,4 +1,31 @@
 .place__text {
+    max-width: 484px;
     grid-column: 2/3;
     grid-row: 2/3;
+    display: grid;
+    gap: 27px;
+    box-sizing: border-box;
 }
+
+@media screen and (max-width:1120px) {
+    .place__text {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .place__text {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .place__text {
+        max-width: 288px;
+        gap: 25px; 
+        grid-column: 1;
+        grid-row: 4;
+        margin-left: 16px;
+    }
+}
+

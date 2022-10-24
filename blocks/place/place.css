@@ -4,4 +4,30 @@
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     row-gap: 48px;
     column-gap: 40px;
+    max-width: 984px;
+}
+
+
+@media screen and (max-width:1120px) {
+    .place{
+        max-width: 928px;
+        column-gap: 32x; 
+   
+    }
+}
+
+@media screen and (max-width:880px) {
+    .place {
+        column-gap: 28px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .place {
+        grid-template-columns: 1 1fr;
+        grid-template-rows: 1 1fr;
+        row-gap: 32px;
+        max-width: 320px;
+    }
 }

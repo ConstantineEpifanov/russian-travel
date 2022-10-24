@@ -5,11 +5,27 @@
     color: white;
     font-family: 'Inter';
     font-style: normal;
-    margin: 0 auto;
     max-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0 48px 0;
     box-sizing: border-box;
+}
+
+@media screen and (max-width:1120px) {
+    .page {
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .page {
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .page {
+        max-width: 100vw;    
+    }
 }
