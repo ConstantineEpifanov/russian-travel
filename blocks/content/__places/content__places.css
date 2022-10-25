@@ -1,7 +1,7 @@
 .content__places {
     margin: 0 148px;
     box-sizing: border-box;
-    width: max-content;
+    
 }
 
 @media screen and (max-width:1120px) {
