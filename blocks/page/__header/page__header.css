@@ -4,12 +4,15 @@
 
 @media screen and (max-width:880px) {
     .page__header {
-        margin: 28px 24px 0;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
 @media screen and (max-width:450px) {
     .page__header {
-        margin: 16px 16px 0;
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-left: 16px;
     }
 }

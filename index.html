@@ -13,10 +13,10 @@
 
     <header class="header page__header">
         <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
-        <nav class="header__lang-links">
+        <div class="header__lang-links">
             <a class="header__lang-link header__lang-link_active" href="">Ru</a>
             <a class="header__lang-link" href="">En</a>
-        </nav>
+        </div>
     </header>
     <main class="content page__content">
         <section class="lead content__lead">
@@ -25,7 +25,8 @@
             <img class="lead__image" src="./images/lead-polka.jpg" alt="">
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
-        <article class="intro content__intro">
+        <section class="intro content__intro">
+            <article>
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
                 провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
@@ -44,6 +45,7 @@
                 <li>Аэропортов <span class="intro__span">241</span></li>
             </ul>
         </article>
+        </section>
         <section class="photo-grid content__photo-grid">
             <img src="./images/photo-grid-train.jpg" alt="Вид из окна поезда" class="photo-grid__item">
             <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид на горы" class="photo-grid__item">
@@ -162,9 +164,9 @@
             </article>
         </section>
         <section class="cover content__cover">
-            <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+            <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala"><div class="cover__background">
                 <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-                <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
+                <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p></div>
             </a>
         </section>
     </main>
@@ -176,7 +178,7 @@
             <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
             <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
         </nav>
-        <div class="footer__copyright">© 2022 Constantine</div>
+        <p class="footer__copyright">© 2022 Constantine</p>
     </footer>
 </body>
 
