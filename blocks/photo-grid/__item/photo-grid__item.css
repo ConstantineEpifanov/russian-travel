@@ -1,25 +1,6 @@
 .photo-grid__item {
-    max-width: 284px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     box-sizing: border-box;
-}
-
-
-@media screen and (max-width:1120px) {
-    .photo-grid__item {
-        max-width: 300px;
-    }
-}
-
-@media screen and (max-width:880px) {
-    .photo-grid__item {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width:450px) {
-    .photo-grid__item {
-        max-width: 288px;
-    }
 }
