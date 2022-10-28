@@ -3,14 +3,14 @@
 }
 
 
-@media screen and (max-width:880px) {
+@media screen and (max-width:767px) {
     .content__photo-grid {
         margin-left: 24px;
         margin-right: 24px;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:425px) {
     .content__photo-grid {
         margin-left: 16px;
         margin-right: 16px;

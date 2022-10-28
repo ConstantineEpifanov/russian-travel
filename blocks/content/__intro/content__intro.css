@@ -1,28 +1,22 @@
 .content__intro {
-    margin: 0 148px;
-    max-width: 984px;
+    margin: 0 auto;
+    max-width: calc(100vw - 2*148px);
 }
 
-@media screen and (max-width:1120px) {
+@media screen and (max-width:1100px) {
     .content__intro {
-        margin-left: 48px;
-        margin-right: 48px;
-        max-width: 690px;
+        max-width: calc(100vw - 2*48px);
     }
 }
 
-@media screen and (max-width:880px) {
+@media screen and (max-width:767px) {
     .content__intro {
-        margin-left: 24px;
-        margin-right: 24px;
-        max-width: 720px;
+        max-width: calc(100vw - 2*24px);
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:425px) {
     .content__intro {
-        margin-left: 16px;
-        margin-right: 16px;
-        max-width: 288px;
+        max-width: calc(100vw - 2*16px);
     }
 }

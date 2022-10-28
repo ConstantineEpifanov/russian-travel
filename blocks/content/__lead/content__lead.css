@@ -1,24 +1,23 @@
 .content__lead {
     margin: 56px auto 0;
     box-sizing: border-box;
-    max-width: 984px;
+    max-width: 100vw;
 }
 
-@media screen and (max-width:1120px) {
+@media screen and (max-width:1279px) {
     .content__lead {
-        max-width: 928px;
         margin-top: 48px;
     }
 }
 
-@media screen and (max-width:880px) {
+/* @media screen and (max-width:767px) {
     .content__lead {
-        max-width: 768px;
+        max-width: 100%;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:425px) {
     .content__lead {
-        max-width: 320px;
+        max-width: 100%;
     }
-}
+} */

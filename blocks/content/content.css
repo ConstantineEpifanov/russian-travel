@@ -2,15 +2,16 @@
     display: grid;
     box-sizing: border-box;
     grid-row-gap: 92px;
+    justify-content: center;
 }
 
-@media screen and (max-width:880px) {
+@media screen and (max-width:767px) {
     .content {
         grid-row-gap: 88px;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:425px) {
     .content {
         grid-row-gap: 64px;
     }

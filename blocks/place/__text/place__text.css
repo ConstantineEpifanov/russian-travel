@@ -8,19 +8,19 @@
     align-content: flex-start;
 }
 
-@media screen and (max-width:1120px) {
+@media screen and (max-width:1279px) {
     .place__text {
         max-width: 456px;
     }
 }
 
-@media screen and (max-width:880px) {
+@media screen and (max-width:767px) {
     .place__text {
         max-width: 352px;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:425px) {
     .place__text {
         max-width: 288px;
         gap: 25px;
