@@ -6,7 +6,6 @@
     box-sizing: content-box;
     grid-row-gap: 92px;
     justify-content: center;
-    max-width: 100%;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
 }
